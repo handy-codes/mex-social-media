@@ -19,15 +19,15 @@ export default function Share() {
                         <input style={{display:"none"}} type="text" id="file" accept=".png, .jpeg, .jpg"/>
                     </label>
                     <button className="border-none p-[7px] text-[12px] rounded-md text-white cursor-pointer mr-[20px] bg-[green]" type="button">Share</button>
-                    <div className="">
+                    <div className="hidden sm:flex">
                         <Label htmlColor="green" className=""/>
                         <span className="">Tag</span>
                     </div>
-                    <div className="">
+                    <div className="hiddenn sm:flex">
                         <Room htmlColor="blue" className=""/>
                         <span className="">Location</span>
                     </div>
-                    <div className="">
+                    <div className="hidden sm:flex">
                         <EmojiEmotions htmlColor="goldenrod" className=""/>
                         <span className="">Feelings</span>
                     </div>

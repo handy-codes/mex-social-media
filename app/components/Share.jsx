@@ -23,7 +23,7 @@ export default function Share() {
                         <Label htmlColor="green" className=""/>
                         <span className="">Tag</span>
                     </div>
-                    <div className="hiddenn sm:flex">
+                    <div className="hidden sm:flex">
                         <Room htmlColor="blue" className=""/>
                         <span className="">Location</span>
                     </div>

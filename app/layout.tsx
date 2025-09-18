@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Facie App",
+  title: "MeX Social App",
   description: "Frontend Social Media App with Next.js & TailwindCSS",
 };
 

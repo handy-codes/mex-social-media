@@ -9,7 +9,7 @@ const Topbar = () => {
     <header className="h-[65px] bg-[#1877F2] font-semibold sticky top-0 z-50">
       <nav className="flex justify-between h-full w-full px-4 sm:p-6 items-center text-white">
         <Link href="/">
-          <h1 className="sm:block text-2xl mr-3">Facie</h1>
+          <h1 className="sm:block text-2xl mr-3">MeX</h1>
         </Link>
         <div className="w-[30vw]">
           <div className="h-[40px] bg-[#fff] hidden md:flex items-center rounded-full px-4">

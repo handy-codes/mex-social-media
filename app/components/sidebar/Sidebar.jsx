@@ -5,38 +5,38 @@ import {Users} from "../../../dummyData";
 import CloseFriend from "../CloseFriend";
 import "./sidebar.css"
 
-const Sidebar = () => {
+export default function Sidebar(){
   return (
     <div className="sidebar hidden md:block w-[25vw] px-5 py-3 font-semibold">
       <div className="">
         <ul className="">
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <RssFeed sx={{ fontSize: 25 }}/>
-            <span className="">Chats</span>
+            <span className="">Feed</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Chat sx={{ fontSize: 25 }}/>
-            <span className="">Videos</span>
+            <span className="">Chat</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <PlayCircleFilledOutlined sx={{ fontSize: 25 }}/>
-            <span className="">Groups</span>
+            <span className="">Videos</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Group sx={{ fontSize: 25 }}/>
-            <span className="">Bookmarks</span>
+            <span className="">Groups</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Bookmark sx={{ fontSize: 25 }}/>
-            <span className="">Questions</span>
+            <span className="">Bookmark</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <HelpOutline sx={{ fontSize: 25 }}/>
-            <span className="">Jobs</span>
+            <span className="">Questions</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <WorkOutline sx={{ fontSize: 25 }}/>
-            <span className="">Events</span>
+            <span className="">Jobs</span>
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <School sx={{ fontSize: 25 }}/>
@@ -44,7 +44,7 @@ const Sidebar = () => {
           </li>
           <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Event sx={{ fontSize: 25 }}/>
-            <span className="">Feed</span>
+            <span className="">Events</span>
           </li>
         </ul>
         <button className="mb-4 mt-2 border-2 border-black rounded-md px-10 text-sm py-2 bg-[#F0F0F0] font-semibold">Show More</button>
@@ -60,4 +60,3 @@ const Sidebar = () => {
 
 }
 
-export default Sidebar

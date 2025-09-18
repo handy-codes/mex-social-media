@@ -11,7 +11,9 @@ export default function Home() {
         <Sidebar />
         <Feed />
         <Rightbar />
+        <div className=""></div>
       </div>
     </>
   );
 }
+
